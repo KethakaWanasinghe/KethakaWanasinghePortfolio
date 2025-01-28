@@ -94,7 +94,7 @@ const Hero = () => {
           >
             <div className="relative hover:scale-105 transition-transform duration-500">
               <Image
-                src="/assets/kethaka.png"
+                src="/assets/kethaka.webp"
                 alt="Profile"
                 width={500}
                 height={500}
