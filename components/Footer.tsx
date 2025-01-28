@@ -75,7 +75,7 @@ const Footer = () => {
               whileTap={{ scale: 0.95 }}
               transition={{ duration: 2 }}
               className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors z-12"
-              href="/assets/Kethaka Wanasinghe_CV.pdf" 
+              href="/assets/Kethaka_Wanasinghe_CV.pdf" 
               download="Kethaka_Wanasinghe_CV.pdf"
             >
               Download CV

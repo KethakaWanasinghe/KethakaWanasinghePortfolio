@@ -68,7 +68,7 @@ const Hero = () => {
                   whileTap={{ scale: 0.95 }}
                   transition={{ duration: 2 }}
                   className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium z-1"
-                  href="/assets/Kethaka Wanasinghe_CV.pdf" 
+                  href="/assets/Kethaka_Wanasinghe_CV.pdf" 
                   download="Kethaka_Wanasinghe_CV.pdf"
                 >
                   Download CV
