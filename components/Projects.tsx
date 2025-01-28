@@ -77,21 +77,29 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex space-x-4">
-                  <a
-                    href={project.liveUrl}
-                    className="flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors"
-                  >
-                    <Globe className="h-4 w-4" />
-                    <span>Live Demo</span>
-                  </a>
-                  <a
-                    href={project.githubUrl}
-                    className="flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors"
-                  >
-                    <Github className="h-4 w-4" />
-                    <span>Source Code</span>
-                  </a>
-                </div>
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors"
+            >
+              <Globe className="h-4 w-4" />
+              <span>Demo</span>
+            </a>
+          )}
+          {project.githubUrl && (
+            <a
+              href={project.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors"
+            >
+              <Github className="h-4 w-4" />
+              <span>Source Code</span>
+            </a>
+          )}
+        </div>
               </div>
             </motion.div>
           ))}
