@@ -11,7 +11,7 @@ const projects = [
     image: "/assets/lecspace.png",
     tags: ["Next.js, Tailwind CSS", "TypeScript", "Spring Boot", "MySQL", "RESTful","Figma"],
     liveUrl: "https://www.linkedin.com/posts/kethaka-wanasinghe-299b46197_webapp-innovation-teamwork-activity-7283595619393224705-wURP?utm_source=social_share_send&utm_medium=member_desktop_web",
-    githubUrl: "#"
+    
   },
   {
     title: "Blog Space",
@@ -26,8 +26,7 @@ const projects = [
     description: "An intuitive web application designed for guitar and bass players of all skill levels!",
     image: "/assets/tuner.png",
     tags: ["React", "TypeScript", "Tailwind CSS",],
-    liveUrl: "#",
-    githubUrl: "#"
+    
   }
 ];
 
